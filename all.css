@@ -507,4 +507,51 @@ textarea {
 .left-title {
     writing-mode: vertical-lr;
     position: absolute;
+    font-family: "微軟正黑體";
+    font-weight: 700;
+    font-size: 110px;
+    color: black;
+    margin-left: 18vw;
+    margin-top: 10vh;
+}
+
+.right-title {
+    writing-mode: vertical-lr;
+    position: absolute;
+    font-family: "微軟正黑體";
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    margin-left: 25vw;
+    margin-top: 11vh;
+    letter-spacing: 5px;
+}
+
+.card {
+    width: 55vw;
+    height: 60vh;
+    background-color: white;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.logoImg {
+    width: 15vw;
+}
+
+.jobTitle {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "微軟正黑體";
+    font-weight: 600;
+    color: cadetblue;
+}
+
+.name {
+    font-size: 46px;
 }
