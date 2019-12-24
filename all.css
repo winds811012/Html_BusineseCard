@@ -497,19 +497,19 @@ textarea {
     padding: 0.2em 0;
 }
 
-.background {
-    width: 100vw;
-    height: 100vh;
+body {
+    /* width: 100vw;
+    height: 100vh; */
     background-color: cornflowerblue;
     position: relative;
 }
 
 .left-title {
     writing-mode: vertical-lr;
-    position: absolute;
+    position: fixed;
     font-family: "微軟正黑體";
     font-weight: 700;
-    font-size: 110px;
+    font-size: 7vw;
     color: black;
     margin-left: 18vw;
     margin-top: 10vh;
@@ -517,10 +517,10 @@ textarea {
 
 .right-title {
     writing-mode: vertical-lr;
-    position: absolute;
+    position: fixed;
     font-family: "微軟正黑體";
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2vw;
     color: black;
     margin-left: 25vw;
     margin-top: 11vh;
@@ -535,8 +535,9 @@ textarea {
     margin-left: 30vw;
     margin-top: 10vh;
     border-radius: 20px;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-left: 20px;
+    overflow: hidden;
 }
 
 .logoImg {
@@ -553,5 +554,64 @@ textarea {
 }
 
 .name {
-    font-size: 46px;
+    font-size: 60px;
+    font-family: "微軟正黑體";
+    font-weight: 800;
+    margin-left: 250px;
+    margin-top: 50px;
+    color: darkslategray;
+}
+
+.company,
+.phoneNumber,
+.mail,
+.address {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: "微軟正黑體";
+    font-weight: 600;
+    color: cadetblue;
+}
+
+.company {
+    margin-top: 45px;
+}
+
+.a {
+    position: absolute;
+    width: 100px;
+    height: 0;
+    border-width: 0 50px 87px;
+    border-style: solid;
+    border-color: transparent transparent #f80;
+    display: inline-block;
+}
+
+.a:before {
+    position: absolute;
+    content: "";
+    top: 87px;
+    left: -50px;
+    width: 100px;
+    height: 0;
+    background: none;
+    border-width: 87px 50px 0;
+    border-style: solid;
+    border-color: #f80 transparent transparent;
+}
+
+.top {
+    margin-left: 32vw;
+    margin-top: -10vh;
+}
+
+.middle {
+    margin-left: 20vw;
+    margin-top: 16vh;
+}
+
+.bottom {
+    margin-left: 33vw;
+    margin-top: 40vh;
 }
